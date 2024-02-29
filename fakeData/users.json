@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Plato",
+    "email": "plato@cs.com",
+    "role": "ENGINEER"
+  },
+  {
+    "id": 2,
+    "name": "Aristotle",
+    "email": "aristotle@cs.com",
+    "role": "ADMIN"
+  },
+  {
+    "id": 3,
+    "name": "Socrates",
+    "email": "socrates@cs.com",
+    "role": "INTERN"
+  },
+  {
+    "id": 4,
+    "name": "Confucius",
+    "email": "confucius@cs.com",
+    "role": "ENGINEER"
+  },
+  {
+    "id": 5,
+    "name": "Descartes",
+    "email": "descartes@cs.com",
+    "role": "ADMIN"
+  },
+  {
+    "id": 6,
+    "name": "Kant",
+    "email": "kant@cs.com",
+    "role": "INTERN"
+  }
+]
