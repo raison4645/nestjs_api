@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Employee" ALTER COLUMN "name" SET DATA TYPE TEXT;
