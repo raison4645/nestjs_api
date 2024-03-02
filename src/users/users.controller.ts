@@ -20,8 +20,8 @@ export class UsersController {
   }
 
   @Get(':id') // Get specific user by id
-  findOne(@Param('id') id: string) {
-    return this.usersService.findOne(+id) // Unary Plus (+) is a method to convert data to number, better than parseInt() function
+  findOne(@Param('id', ParseIntPipe) id: number) {
+    return this.usersService.findOne(id) // Unary Plus (+) is a method to convert data to number, better than parseInt() function
   }
 
   @Post() // POST /users
@@ -35,7 +35,10 @@ export class UsersController {
   }
 
   @Delete(':id') // delete specific user by id
-  delete (@Param('id') id: string, @Body() userUpdate: {}) {
-    return this.usersService.delete(+id)
+  delete (@Param('id', ParseIntPipe) id: number) {
+    return this.usersService.delete(id)
   }
 }
+
+
+// Pipe for data transformation and validation
